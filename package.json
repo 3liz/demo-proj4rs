@@ -1,0 +1,17 @@
+{
+  "name": "ol-test-app",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^4.0.4"
+  },
+  "dependencies": {
+    "ol": "latest",
+    "proj4rs": "^0.1.6",
+    "vite-plugin-wasm": "^3.3.0"
+  }
+}
