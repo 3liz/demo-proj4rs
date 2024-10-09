@@ -1,6 +1,6 @@
 # OpenLayers + Proj4rs with Vite
 
-This example demonstrates how `OpenLayers` can be used with `Proj4rs`. It is based on `OpenLayers` + [Vite](https://vitejs.dev/).
+These demos use the npm package `Proj4rs`. It is based on `OpenLayers` + [Vite](https://vitejs.dev/) and the repository can be found [here](https://github.com/3liz/proj4rs).
 
 To get started, run the following (requires Node 14+):
 
