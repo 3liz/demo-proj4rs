@@ -1,3 +1,5 @@
+Demos can be found on [docs.3liz.org/demo-proj4rs](https://docs.3liz.org/demo-proj4rs/).
+
 # OpenLayers + Proj4rs with Vite
 
 These demos use the npm package `Proj4rs`. It is based on `OpenLayers` + [Vite](https://vitejs.dev/) and the repository can be found [here](https://github.com/3liz/proj4rs).
