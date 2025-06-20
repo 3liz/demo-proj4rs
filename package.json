@@ -12,7 +12,7 @@
   "dependencies": {
     "flatgeobuf": "^3.35.0",
     "ol": "latest",
-    "proj4rs": "^0.1.6",
+    "proj4rs": "^0.1.8",
     "rollup-plugin-copy": "^3.5.0",
     "vite-plugin-wasm": "^3.3.0"
   }
