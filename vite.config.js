@@ -24,6 +24,7 @@ export default {
         copy({
           targets: [
             { src: 'fgb/axis_orientation_neu_3044.fgb', dest: './dist/fgb' },
+            { src: 'components', dest: './dist' },
           ]
         })
       ]

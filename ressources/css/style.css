@@ -165,7 +165,7 @@ container > div {
 
 /* Nav bar */
 
-nav {
+nav-bar {
   background-color: white;
   border-radius: 0 7px 7px 0;
   position: fixed;
@@ -178,18 +178,18 @@ nav {
   transition: ease 200ms;
 }
 
-nav > a:first-child {
+nav-bar > a:first-child {
   border-radius: 0 10px 0 0;
   border-top: solid 2px #000000;
   font-weight: bold;
 }
 
-nav > a:last-child {
+nav-bar > a:last-child {
   border-radius: 0 0 10px 0;
   border-bottom: solid 2px #000000;
 }
 
-nav:hover {
+nav-bar:hover {
   width: 200px;
   text-indent: 0;
   .navLabel {
