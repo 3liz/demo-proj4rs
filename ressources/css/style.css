@@ -228,3 +228,77 @@ nav:hover {
 #navLabelActive:hover {
   background-color: rgb(237, 237, 237);
 }
+
+/* GitInsert Style */
+
+.git-insert {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  text-decoration: none;
+  color: #303030;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 10px;
+  font-family: Arial, serif;
+  transition: ease 200ms;
+}
+
+.git-insert:hover {
+  box-shadow: inset 0px 0px 22px -9px rgba(0,0,0,0.4);
+  transition: ease 150ms;
+
+  .git-insert-tooltip {
+    visibility: visible;
+  }
+
+}
+
+.git-insert:active {
+  box-shadow: inset 0px 0px 22px -9px rgba(0,0,0,0.6);
+}
+
+.md-icon {
+  width: 37px;
+  height: 37px;
+}
+
+.git-insert-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.git-insert-title {
+  padding: 0 10px;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.git-insert-desc {
+  font-size: 13px;
+  color: #777777;
+}
+
+@media screen and (max-width: 930px) {
+  .git-insert {
+    flex-direction: column;
+  }
+}
+
+.git-insert-tooltip {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  left: 80px;
+  bottom: 38px;
+  z-index: 1;
+}
